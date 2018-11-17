@@ -1,0 +1,38 @@
+{
+  "name": "hms-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/deerpark/hms-work.git"
+  },
+  "keywords": [
+    "spa"
+  ],
+  "author": "hms",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deerpark/hms-work/issues"
+  },
+  "homepage": "https://github.com/deerpark/hms-work#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9.3.1",
+    "file-loader": "^2.0.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.83.0",
+    "url-loader": "^1.1.2"
+  }
+}
